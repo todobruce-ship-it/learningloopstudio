@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learning Loop Studio - Practical thinking about AI in K-12 classrooms</title>
+<meta name="description" content="Learning Loop Studio: how AI tools can support teaching, from a middle school educator in the Cincinnati, Ohio area.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="site-name" href="/">Learning Loop Studio</a>
+  <nav class="site-nav" aria-label="Main">
+    <a href="/" aria-current="page">Home</a>
+    <a href="/district-ai-benchmark/">Peninsula School District AI</a>
+    <a href="/desert-sands-unified/">Desert Sands USD</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section id="intro">
+    <h1>Practical thinking about AI in K&ndash;12 classrooms.</h1>
+    <p>I'm Bruce Burke, a middle school educator in the Cincinnati, Ohio area. Learning Loop Studio is where I work through how AI tools can support teaching, and where I share what works in a real classroom and what doesn't. It's written for K&ndash;12 teachers across the United States.</p>
+  </section>
+
+  <section id="what-youll-find">
+    <h2>What you'll find here</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Classroom notes</h3>
+        <p>What I've tried with students, including the results.</p>
+      </div>
+      <div class="card">
+        <h3>Research, made readable</h3>
+        <p>Plain-language summaries of what schools and districts are doing with AI.</p>
+      </div>
+      <div class="card">
+        <h3>Conversations</h3>
+        <p>Questions from other educators, with the answers we work out together.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured" id="featured">
+    <h2>Featured</h2>
+    <p><strong>Ten impressive things Peninsula School District is doing with AI, plus one more.</strong> <a href="/district-ai-benchmark/">Read the list &rarr;</a></p>
+    <p><strong>Desert Sands Unified School District</strong> (California): recognized by Designing Schools for its human-centered AI playbook, with the announcement saved here. <a href="/desert-sands-unified/">See the page &rarr;</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Get in touch</h2>
+    <p>I'd like to hear from teachers, coaches, administrators, and anyone building tools for schools. Send a question, an idea, or something that worked in your classroom.</p>
+
+    <!-- Live form: posts to Web3Forms. Access key is public by design (Web3Forms docs). -->
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="55a91b27-3839-4c5e-a7f2-6f90789d5168">
+      <input type="hidden" name="subject" value="New message from learningloopstudio.com">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="role">Role</label>
+        <select id="role" name="role">
+          <option value="">Choose one</option>
+          <option>Teacher</option>
+          <option>Administrator</option>
+          <option>Technology coach</option>
+          <option>Developer</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div>
+        <label for="state">State</label>
+        <input type="text" id="state" name="state">
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <!-- Honeypot: hidden from people, catches bots. Keep hidden at launch. -->
+      <div style="position:absolute;left:-9999px" aria-hidden="true">
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company" tabindex="-1" autocomplete="off">
+      </div>
+      <div class="checkbox-row">
+        <input type="checkbox" id="followup" name="followup">
+        <label for="followup">I'm open to a follow-up conversation.</label>
+      </div>
+      <p class="privacy-note">Messages go straight to Bruce's inbox and are used only to reply to you. They're stored securely by the form service (Web3Forms) and checked for spam, never sold, and never added to a mailing list. Please don't include any student information.</p>
+      <button type="submit">Send message</button>
+    </form>
+    <p>Prefer email? Write to <a href="mailto:hello@learningloopstudio.com">hello@learningloopstudio.com</a>.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Learning Loop Studio &middot; Cincinnati, Ohio &middot; <a href="mailto:hello@learningloopstudio.com">hello@learningloopstudio.com</a></p>
+  <p>Views here are my own and do not represent my school or district.</p>
+</footer>
+
+</body>
+</html>
